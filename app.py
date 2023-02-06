@@ -4,7 +4,7 @@ from flask_restx import Api
 from config import Config
 from setup_db import db
 
-from views.movies.movies import movie_nsgit
+from views.movies.movies import movie_ns
 from views.directors.directors import director_ns
 from views.genres.genres import genre_ns
 
